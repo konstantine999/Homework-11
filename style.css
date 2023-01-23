@@ -130,6 +130,22 @@ ul li a {
     width: 1028px;
     font-weight: bold;
 }
+.section-first-infos {
+    margin-top: 60px;
+}
+.section-first-infos span {
+    margin-left: 90px;
+    display: block;
+}
+.bottom-web-link {
+    margin-top: 30px;
+}
+.section-first-infos p, .section-first-infos span {
+    color: #959595;
+    font-family: 'Brandon Grotesque';
+    font-size: 14px;
+    font-weight: bold;
+}
 @media (max-width: 1024px) {
     .mobile-burger {
         display: block;
@@ -172,5 +188,15 @@ ul li a {
     }
     .mobile-paragraph {
         display: block;
+    }
+    .section-first-infos p {
+        font-size: 13px;
+        width: 146px;
+    }
+    .section-first-infos {
+        display: block;
+    }
+    .section-first-infos span {
+        margin-left: 0;
     }
 }
